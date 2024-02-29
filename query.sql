@@ -1,4 +1,7 @@
 SELECT nombre, apellido, ciudad
 FROM clientes
-WHERE pais = 'España'
-ORDER BY apellido ASC;
+WHERE pais = 'México'
+ORDER BY apellido ASC
+LIMIT 30;
+
+
