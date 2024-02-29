@@ -16,7 +16,7 @@ def adivinar_numero():
             if intento < numero_secreto:
                 print("Demasiado bajo. Intenta de nuevo.")
             elif intento > numero_secreto:
-                print("Demasiado alto. Intenta de nuevo.")
+                print("Too. Try again.")
             else:
                 print(f"¡Felicidades! Adivinaste el número en {intentos} intentos.")
                 break
